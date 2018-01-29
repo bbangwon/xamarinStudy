@@ -13,7 +13,7 @@ namespace Greetings
 		{
 			InitializeComponent();
 
-			MainPage = new Greetings.VariableFormattedParagraphPage();
+			MainPage = new Greetings.NamedFontSizedPage();
 		}
 
 		protected override void OnStart ()
