@@ -13,7 +13,7 @@ namespace ScrollingTheStack
 		{
 			InitializeComponent();
 
-			MainPage = new ScrollingTheStack.ReflectedColorsPage();
+			MainPage = new ScrollingTheStack.SizedBoxViewPage();
 		}
 
 		protected override void OnStart ()
