@@ -13,7 +13,7 @@ namespace ScrollingTheStack
 		{
 			InitializeComponent();
 
-			MainPage = new ScrollingTheStack.SizedBoxViewPage();
+			MainPage = new ScrollingTheStack.BlackCatPage();
 		}
 
 		protected override void OnStart ()
