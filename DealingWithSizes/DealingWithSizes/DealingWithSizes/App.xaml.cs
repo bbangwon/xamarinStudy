@@ -13,7 +13,7 @@ namespace DealingWithSizes
 		{
 			InitializeComponent();
 
-			MainPage = new DealingWithSizes.MetricalBoxViewPage();
+			MainPage = new DealingWithSizes.FontSizesPage();
 		}
 
 		protected override void OnStart ()
