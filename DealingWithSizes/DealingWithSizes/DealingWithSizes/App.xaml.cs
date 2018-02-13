@@ -13,7 +13,7 @@ namespace DealingWithSizes
 		{
 			InitializeComponent();
 
-			MainPage = new DealingWithSizes.EstimatedFontSizePage();
+			MainPage = new DealingWithSizes.FitToSizeClockPage();
 		}
 
 		protected override void OnStart ()
