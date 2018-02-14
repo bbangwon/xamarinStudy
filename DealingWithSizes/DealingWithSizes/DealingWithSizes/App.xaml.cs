@@ -13,7 +13,7 @@ namespace DealingWithSizes
 		{
 			InitializeComponent();
 
-			MainPage = new DealingWithSizes.FitToSizeClockPage();
+			MainPage = new DealingWithSizes.AccessiblityTestPage();
 		}
 
 		protected override void OnStart ()
