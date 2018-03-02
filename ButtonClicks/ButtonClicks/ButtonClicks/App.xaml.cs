@@ -13,7 +13,7 @@ namespace ButtonClicks
 		{
 			InitializeComponent();
 
-			MainPage = new ButtonClicks.ButtonLoggerPage();
+			MainPage = new ButtonClicks.TwoButtonsPage();
 		}
 
 		protected override void OnStart ()
