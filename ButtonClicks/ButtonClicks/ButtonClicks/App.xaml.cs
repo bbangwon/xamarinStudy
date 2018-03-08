@@ -13,7 +13,7 @@ namespace ButtonClicks
 		{
 			InitializeComponent();
 
-			MainPage = new ButtonClicks.ButtonLambdasPage();
+			MainPage = new ButtonClicks.SimplestKeypadPage();
 		}
 
 		protected override void OnStart ()
