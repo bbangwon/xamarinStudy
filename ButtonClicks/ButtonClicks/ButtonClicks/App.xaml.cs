@@ -9,12 +9,19 @@ namespace ButtonClicks
 {
 	public partial class App : Application
 	{
+
+        const string displayLabelText = "displayLabelText";
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new ButtonClicks.SimplestKeypadPage();
+            if(Properties.ContainsKey(displayLabelText))
+                DisplayLabelText = (string)Properties[displayLabelText];
+
+			MainPage = new ButtonClicks.PersistentKeypadPage();
 		}
+
+        public string DisplayLabelText { set; get; }
 
 		protected override void OnStart ()
 		{
@@ -23,7 +30,8 @@ namespace ButtonClicks
 
 		protected override void OnSleep ()
 		{
-			// Handle when your app sleeps
+            // Handle when your app sleeps
+            Properties[displayLabelText] = DisplayLabelText;
 		}
 
 		protected override void OnResume ()
