@@ -13,7 +13,7 @@ namespace CodeAndXamlInHarmony
 		{
 			InitializeComponent();
 
-			MainPage = new CodeAndXamlInHarmony.XamlClockPage();
+			MainPage = new CodeAndXamlInHarmony.PlatformSpecificLabelsPage();
 		}
 
 		protected override void OnStart ()

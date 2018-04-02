@@ -10,5 +10,5 @@
         <Label x:Name="dateLabel"
                HorizontalOptions="Center"
                VerticalOptions="StartAndExpand"/>
-    </StackLayout>     
+    </StackLayout>
 </ContentPage>
