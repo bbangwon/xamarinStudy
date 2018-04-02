@@ -13,7 +13,7 @@ namespace CodeAndXamlInHarmony
 		{
 			InitializeComponent();
 
-			MainPage = new CodeAndXamlInHarmony.PlatformSpecificLabelsPage();
+			MainPage = new CodeAndXamlInHarmony.ColorViewListPage();
 		}
 
 		protected override void OnStart ()
