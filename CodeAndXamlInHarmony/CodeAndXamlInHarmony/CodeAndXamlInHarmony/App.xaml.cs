@@ -9,11 +9,16 @@ namespace CodeAndXamlInHarmony
 {
 	public partial class App : Application
 	{
+        const string displayLabelText = "displayLabelText";
+        public string DisplayLabelText { get; set; }
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new CodeAndXamlInHarmony.ColorViewListPage();
+            if (Properties.ContainsKey(displayLabelText))
+                DisplayLabelText = (string)Properties[displayLabelText];
+
+			MainPage = new CodeAndXamlInHarmony.MonkeyTabPage();
 		}
 
 		protected override void OnStart ()
@@ -23,7 +28,8 @@ namespace CodeAndXamlInHarmony
 
 		protected override void OnSleep ()
 		{
-			// Handle when your app sleeps
+            // Handle when your app sleeps
+            Properties[displayLabelText] = DisplayLabelText;
 		}
 
 		protected override void OnResume ()
