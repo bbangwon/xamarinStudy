@@ -13,7 +13,7 @@ namespace PlatformSpecificPCL
 		{
 			InitializeComponent();
 
-			MainPage = new PlatformSpecificPCL.MonkeyTabPage();
+			MainPage = new PlatformSpecificPCL.MonkeyTapWithSoundPage();
 		}
 
 		protected override void OnStart ()
