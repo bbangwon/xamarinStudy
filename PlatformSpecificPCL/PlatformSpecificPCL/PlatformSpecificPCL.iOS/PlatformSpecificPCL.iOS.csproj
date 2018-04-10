@@ -5,14 +5,15 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AE48DB98-187C-4870-ACBA-FCEC7C7EAEB7}</ProjectGuid>
+    <ProjectGuid>{FE381F39-658F-4819-AF53-D8472FD8FF22}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PlatformSpecific.iOS</RootNamespace>
+    <RootNamespace>PlatformSpecificPCL.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>PlatformSpecific.iOS</AssemblyName>
+    <AssemblyName>PlatformSpecificPCL.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -93,6 +94,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="PlatformInfo.cs" />
+    <Compile Include="PlatformSoundPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -123,5 +125,10 @@
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <Import Project="..\PlatformSpecific\PlatformSpecific.projitems" Label="Shared" />
+  <ItemGroup>
+    <ProjectReference Include="..\PlatformSpecificPCL\PlatformSpecificPCL.csproj">
+      <Project>{7A316DE6-0BB9-478A-BD54-7220D11D0110}</Project>
+      <Name>PlatformSpecificPCL</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

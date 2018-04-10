@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  platformspecificpcl.ios:
+    image: platformspecificpclios
+    build:
+      context: .\PlatformSpecificPCL\PlatformSpecificPCL.iOS
+      dockerfile: Dockerfile

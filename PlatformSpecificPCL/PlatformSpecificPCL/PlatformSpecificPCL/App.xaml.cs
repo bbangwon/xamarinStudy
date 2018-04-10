@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace PlatformSpecific
+namespace PlatformSpecificPCL
 {
 	public partial class App : Application
 	{
@@ -13,7 +13,7 @@ namespace PlatformSpecific
 		{
 			InitializeComponent();
 
-			MainPage = new PlatInfoSap2.PlatInfoSap2Page();
+			MainPage = new PlatformSpecificPCL.MonkeyTabPage();
 		}
 
 		protected override void OnStart ()
