@@ -5,6 +5,17 @@
 	<Application.Resources>
 
 		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <x:Double x:Key="borderWidth">3</x:Double>
+            <x:Double x:Key="fontSize">20</x:Double>
+            <OnPlatform x:Key="backgroundColor"
+                        x:TypeArguments="Color"
+                        Android="#404040"/>
 
+            <OnPlatform x:Key="borderColor"
+                        x:TypeArguments="Color"
+                        Android="White"
+                        WinPhone="Black"/>            
+        </ResourceDictionary>
 	</Application.Resources>
 </Application>

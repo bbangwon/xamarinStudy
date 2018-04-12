@@ -13,7 +13,7 @@ namespace XAMLmarkupExtensions
 		{
 			InitializeComponent();
 
-			MainPage = new XAMLmarkupExtensions.ResourceSharingPage();
+			MainPage = new XAMLmarkupExtensions.ResourceTreesPage();
 		}
 
 		protected override void OnStart ()
