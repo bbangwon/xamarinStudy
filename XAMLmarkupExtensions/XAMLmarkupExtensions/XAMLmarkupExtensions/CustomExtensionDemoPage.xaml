@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="clr-namespace:Xamarin.Forms.Toolkit;assembly=Xamarin.Forms.Toolkit"
+             x:Class="XAMLmarkupExtensions.CustomExtensionDemoPage">
+    <StackLayout>
+        <BoxView HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+            <BoxView.Color>
+                <toolkit:HslColorExtension H="0" S="1" L="0.5" />
+            </BoxView.Color>
+        </BoxView>
+
+        <BoxView HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+            <BoxView.Color>
+                <toolkit:HslColorExtension H="0.33" S="1" L="0.5" />
+            </BoxView.Color>
+        </BoxView>
+
+        <BoxView Color="{toolkit:HslColor H=0.67,S=1,L=0.5}"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand"/>
+
+        <BoxView Color="{toolkit:HslColor H=0, S=0, L=0.5}"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand"/>
+
+        <BoxView Color="{toolkit:HslColor H=0, S=0, L=1, A=0.5}"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand"/>
+
+        <BoxView Color="{toolkit:HslColor H=0, S=0, L=0, A=0.5}"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand"/>
+    </StackLayout>
+</ContentPage>

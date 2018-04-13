@@ -13,7 +13,7 @@ namespace XAMLmarkupExtensions
 		{
 			InitializeComponent();
 
-			MainPage = new XAMLmarkupExtensions.DynamicVsStaticPage();
+			MainPage = new XAMLmarkupExtensions.CustomExtensionDemoPage();
 		}
 
 		protected override void OnStart ()
