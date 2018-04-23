@@ -13,7 +13,7 @@ namespace BindableInf
 		{
 			InitializeComponent();
 
-			MainPage = new BindableInfrastructure.ClassHierarchyPage();
+			MainPage = new PointSizedTextPage();
 		}
 
 		protected override void OnStart ()
