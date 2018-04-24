@@ -13,7 +13,7 @@ namespace BindableInf
 		{
 			InitializeComponent();
 
-			MainPage = new PointSizedTextPage();
+			MainPage = new BaskervillesCountPage();
 		}
 
 		protected override void OnStart ()

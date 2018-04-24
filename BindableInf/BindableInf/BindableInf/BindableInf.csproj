@@ -18,6 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="BaskervillesCountPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="ClassHierarchyPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
