@@ -13,7 +13,7 @@ namespace Styles
 		{
 			InitializeComponent();
 
-			MainPage = new Styles.BasicStylePage();
+			MainPage = new Styles.BasicStyleCodePage();
 		}
 
 		protected override void OnStart ()
