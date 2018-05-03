@@ -43,13 +43,20 @@
                     </Setter.Value>
                 </Setter>                
             </Style>
+            <Style x:Key="viewStyle" TargetType="View">
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+                <Setter Property="BackgroundColor" Value="Pink" />
+            </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
 
     <StackLayout>
-        <Button Text=" Carpe diem " Style="{StaticResource buttonStyle}"/>
-        <Button Text=" Sapere aude " TextColor="Maroon" Style="{StaticResource buttonStyle}"/>
-        <Button Text=" Discere faciendo " Style="{StaticResource buttonStyle}"/>
+        <Button Text=" Carpe diem " Style="{StaticResource viewStyle}"/>
+        <Label Text="A bit of text" Style="{StaticResource viewStyle}"/>
+        <Button Text=" Sapere aude " TextColor="Maroon" Style="{StaticResource viewStyle}"/>
+        <Label Text="another bit of text" Style="{StaticResource viewStyle}"/>
+        <Button Text=" Discere faciendo " Style="{StaticResource viewStyle}"/>
     </StackLayout>
     
 </ContentPage>

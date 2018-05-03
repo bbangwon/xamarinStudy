@@ -5,6 +5,11 @@
 	<Application.Resources>
 
 		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <Style x:Key="visualStyle" TargetType="VisualElement">
+                <Setter Property="BackgroundColor" Value="Pink"/>
+            </Style>
+        </ResourceDictionary>
 
 	</Application.Resources>
 </Application>
