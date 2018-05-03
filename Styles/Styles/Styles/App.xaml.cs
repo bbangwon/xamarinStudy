@@ -13,7 +13,7 @@ namespace Styles
 		{
 			InitializeComponent();
 
-			MainPage = new Styles.StyleHierarchyPage();
+			MainPage = new Styles.DynamicStylesInheritance();
 		}
 
 		protected override void OnStart ()
