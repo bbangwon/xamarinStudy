@@ -13,7 +13,7 @@ namespace Bitmaps
 		{
 			InitializeComponent();
 
-			MainPage = new Bitmaps.WebBitmapCodePage();
+			MainPage = new Bitmaps.StackedBitmapPage();
 		}
 
 		protected override void OnStart ()
