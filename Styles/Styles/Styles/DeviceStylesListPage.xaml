@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Styles.DeviceStylesListPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="10, 20, 10, 0" Android="10, 0" WinPhone="10, 0" />
+    </ContentPage.Padding>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="newSubtitleStyle" TargetType="Label" BaseResourceKey="SubtitleStyle">
+                <Setter Property="TextColor" Value="Aqua"/>
+                <Setter Property="FontAttributes" Value="Italic"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Spacing="20">
+            <StackLayout>
+                <StackLayout HorizontalOptions="Start">
+                    <Label Text="Device styles set with DynamicResource" />
+                    <BoxView Color="Aqua" HeightRequest="3"/>
+                </StackLayout>
+            </StackLayout>
+            <Label Text="No Style whatsoever"/>
+            <Label Text="Body Style" Style="{DynamicResource BodyStyle}"/>
+            <Label Text="Title Style" Style="{DynamicResource TitleStyle}"/>
+            <Label Text="Subtitle Style" Style="{DynamicResource SubtitleStyle}"/>
+            <Label Text="New Subtitle Style" Style="{StaticResource newSubtitleStyle}"/>
+            <Label Text="Caption Style" Style="{DynamicResource CaptionStyle}"/>
+            <Label Text="List Item Text Style" Style="{DynamicResource ListItemTextStyle}"/>
+            <Label Text="List Item Detail Text Style" Style="{DynamicResource ListItemDetailTextStyle}"/>
+
+            <StackLayout x:Name="codeLabelStack">
+                <StackLayout HorizontalOptions="Start">
+                    <Label Text="Device styles set in code:"/>
+                    <BoxView Color="Accent" HeightRequest="3"/>
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>
