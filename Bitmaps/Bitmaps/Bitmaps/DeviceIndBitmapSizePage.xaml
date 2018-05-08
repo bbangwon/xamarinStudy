@@ -2,25 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Bitmaps"
-             x:Class="Bitmaps.StackedBitmapPage">
-
+             x:Class="Bitmaps.DeviceIndBitmapSizePage">
     <StackLayout>
-        <Label Text="320 x 240 Pixel Bitmap"
+        <Label Text="1200 x 900 Pixel Bitmap"
                FontSize="Medium"
                VerticalOptions="CenterAndExpand"
                HorizontalOptions="Center"/>
 
-        <Image Source="{local:ImageResource Bitmaps.Images.Sculpture_320x240.jpg}"
-               WidthRequest="320"
-               HeightRequest="240"
+        <Image Source="{local:ImageResource Bitmaps.Images.Sculpture_1200x900.jpg}"
+               WidthRequest="240"
                HorizontalOptions="Center"
-               BackgroundColor="Aqua"
-               SizeChanged="OnImageSizeChanged"/>
+               SizeChanged="Image_SizeChanged"/>
 
         <Label x:Name="label"
                FontSize="Medium"
                VerticalOptions="CenterAndExpand"
-               HorizontalOptions="Center" />
-    </StackLayout>
-
+               HorizontalOptions="Center"/>
+    </StackLayout>    
 </ContentPage>

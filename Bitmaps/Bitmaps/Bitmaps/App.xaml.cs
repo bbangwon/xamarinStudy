@@ -13,7 +13,7 @@ namespace Bitmaps
 		{
 			InitializeComponent();
 
-			MainPage = new Bitmaps.StackedBitmapPage();
+			MainPage = new Bitmaps.MadTeaPartyPage();
 		}
 
 		protected override void OnStart ()

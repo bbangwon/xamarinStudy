@@ -5,14 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\image113.jpg" />
+    <None Remove="Images\image122.jpg" />
+    <None Remove="Images\image129.jpg" />
     <None Remove="Images\ModernUserInterface.jpg" />
     <None Remove="Images\ModernUserInterface256.jpg" />
+    <None Remove="Images\Sculpture_1200x900.jpg" />
     <None Remove="Images\Sculpture_320x240.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Images\image113.jpg" />
+    <EmbeddedResource Include="Images\image122.jpg" />
+    <EmbeddedResource Include="Images\image129.jpg" />
     <EmbeddedResource Include="Images\ModernUserInterface.jpg" />
     <EmbeddedResource Include="Images\ModernUserInterface256.jpg" />
+    <EmbeddedResource Include="Images\Sculpture_1200x900.jpg" />
     <EmbeddedResource Include="Images\Sculpture_320x240.jpg" />
   </ItemGroup>
 
@@ -30,6 +38,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="DeviceIndBitmapSizePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MadTeaPartyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="StackedBitmapPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
