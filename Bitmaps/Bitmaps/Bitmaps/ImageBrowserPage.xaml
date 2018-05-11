@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bitmaps.ImageBrowserPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"/>        
+    </ContentPage.Padding>
+    <StackLayout>
+        <Image x:Name="image" VerticalOptions="CenterAndExpand" PropertyChanged="image_PropertyChanged"/>
+        <Label x:Name="filenameLabel" HorizontalOptions="Center"/>
+        <ActivityIndicator x:Name="activityIndicator"/>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="prevButton"
+                    Text="Previous"
+                    IsEnabled="False"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="prevButton_Clicked"/>
+
+            <Button x:Name="nextButton"
+                    Text="Next"
+                    IsEnabled="False"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="nextButton_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
