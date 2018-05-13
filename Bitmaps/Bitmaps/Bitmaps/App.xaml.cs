@@ -13,7 +13,7 @@ namespace Bitmaps
 		{
 			InitializeComponent();
 
-			MainPage = new Bitmaps.ImageBrowserPage();
+			MainPage = new Bitmaps.BitmapStreamsPage();
 		}
 
 		protected override void OnStart ()
