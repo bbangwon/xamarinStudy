@@ -13,7 +13,7 @@ namespace Bitmaps
 		{
 			InitializeComponent();
 
-			MainPage = new Bitmaps.DiyGradientBitmapPage();
+			MainPage = new Bitmaps.ImageTapPage();
 		}
 
 		protected override void OnStart ()
