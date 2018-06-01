@@ -146,4 +146,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\Venus%403x.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\reload.png" />
+  </ItemGroup>
 </Project>
