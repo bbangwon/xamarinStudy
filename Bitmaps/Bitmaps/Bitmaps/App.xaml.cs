@@ -13,7 +13,7 @@ namespace Bitmaps
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new Bitmaps.ToolbarDemoPage());
+			MainPage = new ButtonImagePage();
 		}
 
 		protected override void OnStart ()

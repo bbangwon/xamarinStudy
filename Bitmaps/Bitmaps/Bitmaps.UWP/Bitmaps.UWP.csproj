@@ -106,6 +106,8 @@
   <ItemGroup>
     <Content Include="Images\edit.png" />
     <Content Include="Images\feature.search.png" />
+    <Content Include="Images\ic_action_bad.png" />
+    <Content Include="Images\ic_action_good.png" />
     <Content Include="Images\refresh.png" />
     <Content Include="Images\Scream.scale-100.jpg" />
     <Content Include="Images\Scream.scale-200.jpg" />
