@@ -11,7 +11,7 @@ namespace AbsoluteLayoutStudy
 		{
 			InitializeComponent();
 
-			MainPage = new ChessboardDynamicPage();
+			MainPage = new ProportionalCoordinateCalcPage();
 		}
 
 		protected override void OnStart ()
