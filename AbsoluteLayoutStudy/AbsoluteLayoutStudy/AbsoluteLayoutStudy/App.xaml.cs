@@ -11,7 +11,7 @@ namespace AbsoluteLayoutStudy
 		{
 			InitializeComponent();
 
-			MainPage = new ProportionalCoordinateCalcPage();
+			MainPage = new ChessboardXamlPage();
 		}
 
 		protected override void OnStart ()
