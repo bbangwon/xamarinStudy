@@ -11,7 +11,7 @@ namespace AbsoluteLayoutStudy
 		{
 			InitializeComponent();
 
-			MainPage = new ChessboardXamlPage();
+			MainPage = new SimpleOverlayPage();
 		}
 
 		protected override void OnStart ()
