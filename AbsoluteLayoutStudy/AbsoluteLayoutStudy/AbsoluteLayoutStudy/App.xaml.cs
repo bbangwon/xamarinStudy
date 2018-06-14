@@ -11,7 +11,7 @@ namespace AbsoluteLayoutStudy
 		{
 			InitializeComponent();
 
-			MainPage = new SimpleOverlayPage();
+			MainPage = new BouncingTextPage();
 		}
 
 		protected override void OnStart ()
