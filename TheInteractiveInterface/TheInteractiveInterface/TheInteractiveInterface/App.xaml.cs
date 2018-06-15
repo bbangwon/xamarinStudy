@@ -11,7 +11,7 @@ namespace TheInteractiveInterface
 		{
 			InitializeComponent();
 
-			MainPage = new SliderDemoPage();
+			MainPage = new TextFadePage();
 		}
 
 		protected override void OnStart ()
