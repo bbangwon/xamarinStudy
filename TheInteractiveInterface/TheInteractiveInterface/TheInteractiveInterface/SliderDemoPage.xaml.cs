@@ -14,13 +14,14 @@ namespace TheInteractiveInterface
 	{
 		public SliderDemoPage ()
 		{
-			InitializeComponent ();
+			InitializeComponent ();            
 		}
 
         private void Slider_ValueChanged(object sender, ValueChangedEventArgs e)
         {
             Slider slider = (Slider)sender;
-            label.Text = String.Format("Slider = {0:F2}", slider.Value);
+            if(label != null)
+                label.Text = String.Format("Slider = {0:F2}", slider.Value);
         }
     }
 }
