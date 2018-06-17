@@ -11,7 +11,7 @@ namespace TheInteractiveInterface
 		{
 			InitializeComponent();
 
-			MainPage = new StepperDemoPage();
+			MainPage = new CheckBoxDemoPage();
 		}
 
 		protected override void OnStart ()
