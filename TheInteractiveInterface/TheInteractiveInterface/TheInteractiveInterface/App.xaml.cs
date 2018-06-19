@@ -11,7 +11,7 @@ namespace TheInteractiveInterface
 		{
 			InitializeComponent();
 
-			MainPage = new CheckBoxDemoPage();
+			MainPage = new EntryKeyboardsPage();
 		}
 
 		protected override void OnStart ()
