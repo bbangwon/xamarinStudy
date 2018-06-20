@@ -11,7 +11,7 @@ namespace TheInteractiveInterface
 		{
 			InitializeComponent();
 
-			MainPage = new EntryKeyboardsPage();
+			MainPage = new QuadraticEquationsPage();
 		}
 
 		protected override void OnStart ()
