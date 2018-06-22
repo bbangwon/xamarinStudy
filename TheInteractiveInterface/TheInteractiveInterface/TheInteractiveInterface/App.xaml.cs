@@ -11,7 +11,7 @@ namespace TheInteractiveInterface
 		{
 			InitializeComponent();
 
-			MainPage = new QuadraticEquationsPage();
+            MainPage = new NavigationPage(new JustNotesPage());
 		}
 
 		protected override void OnStart ()
@@ -21,7 +21,8 @@ namespace TheInteractiveInterface
 
 		protected override void OnSleep ()
 		{
-			// Handle when your app sleeps
+            // Handle when your app sleeps
+            ((JustNotesPage)(((NavigationPage)MainPage).CurrentPage)).OnSleep();
 		}
 
 		protected override void OnResume ()
