@@ -11,7 +11,7 @@ namespace TheInteractiveInterface
 		{
 			InitializeComponent();
 
-            MainPage = new NavigationPage(new JustNotesPage());
+            MainPage = new SearchBarDemoPage();
 		}
 
 		protected override void OnStart ()
@@ -22,7 +22,7 @@ namespace TheInteractiveInterface
 		protected override void OnSleep ()
 		{
             // Handle when your app sleeps
-            ((JustNotesPage)(((NavigationPage)MainPage).CurrentPage)).OnSleep();
+            //((JustNotesPage)(((NavigationPage)MainPage).CurrentPage)).OnSleep();
 		}
 
 		protected override void OnResume ()
