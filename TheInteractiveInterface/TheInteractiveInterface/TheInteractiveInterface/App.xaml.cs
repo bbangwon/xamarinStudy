@@ -11,7 +11,7 @@ namespace TheInteractiveInterface
 		{
 			InitializeComponent();
 
-            MainPage = new SearchBarDemoPage();
+            MainPage = new DaysBetweenDatesPage();
 		}
 
 		protected override void OnStart ()

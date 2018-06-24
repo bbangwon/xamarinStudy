@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheInteractiveInterface.DaysBetweenDatesPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="10, 30, 10, 0"
+                    Android="10, 10, 10, 0"
+                    WinPhone="10, 10, 10, 0"/>
+    </ContentPage.Padding>
+
+    <StackLayout>
+        <StackLayout.Resources>
+            <ResourceDictionary>
+                <Style TargetType="DatePicker">
+                    <Setter Property="Format" Value="D"/>
+                    <Setter Property="VerticalOptions" Value="Center"/>
+                    <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                </Style>
+            </ResourceDictionary>
+        </StackLayout.Resources>
+
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="Center">
+            <Label Text="Days between Dates"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="Accent"/>
+            <BoxView Color="Accent"
+                     HeightRequest="3"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="CenterAndExpand">
+            <Label Text="From:"
+                   VerticalOptions="Center"/>
+            <DatePicker x:Name="fromDatePicker"
+                        DateSelected="OnDatePicker_DateSelected"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="CenterAndExpand">
+            <Label Text="     To:"
+                   VerticalOptions="Center"/>
+            <DatePicker x:Name="toDatePicker"
+                        DateSelected="OnDatePicker_DateSelected"/>
+        </StackLayout>
+
+        <Label x:Name="resultLabel"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
+    </StackLayout>
+</ContentPage>
