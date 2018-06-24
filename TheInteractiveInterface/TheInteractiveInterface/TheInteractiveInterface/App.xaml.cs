@@ -11,7 +11,7 @@ namespace TheInteractiveInterface
 		{
 			InitializeComponent();
 
-            MainPage = new DaysBetweenDatesPage();
+            MainPage = new SetTimerPage();
 		}
 
 		protected override void OnStart ()
