@@ -11,7 +11,7 @@ namespace DataBinding
 		{
 			InitializeComponent();
 
-			MainPage = new WebViewDemoPage();
+			MainPage = new ReverseBindingPage();
 		}
 
 		protected override void OnStart ()
