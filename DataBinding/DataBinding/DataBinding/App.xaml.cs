@@ -11,7 +11,7 @@ namespace DataBinding
 		{
 			InitializeComponent();
 
-			MainPage = new OpacityBindingXamlPage();
+			MainPage = new WebViewDemoPage();
 		}
 
 		protected override void OnStart ()
