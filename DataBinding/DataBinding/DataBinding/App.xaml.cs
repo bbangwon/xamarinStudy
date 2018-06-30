@@ -11,7 +11,7 @@ namespace DataBinding
 		{
 			InitializeComponent();
 
-			MainPage = new ReverseBindingPage();
+			MainPage = new WhatSizeBindingsPage();
 		}
 
 		protected override void OnStart ()
