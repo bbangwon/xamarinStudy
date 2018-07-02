@@ -11,7 +11,7 @@ namespace DataBinding
 		{
 			InitializeComponent();
 
-			MainPage = new BindingPathDemosPage();
+			MainPage = new SwitchTextPage();
 		}
 
 		protected override void OnStart ()
