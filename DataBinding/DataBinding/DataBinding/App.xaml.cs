@@ -11,7 +11,7 @@ namespace DataBinding
 		{
 			InitializeComponent();
 
-			MainPage = new SwitchTextPage();
+			MainPage = new NewCheckBoxDemoPage();
 		}
 
 		protected override void OnStart ()
