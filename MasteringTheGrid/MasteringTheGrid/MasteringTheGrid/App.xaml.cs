@@ -11,7 +11,7 @@ namespace MasteringTheGrid
 		{
 			InitializeComponent();
 
-			MainPage = new GridBarChartPage();
+			MainPage = new SpacingButtonsPage();
 		}
 
 		protected override void OnStart ()
