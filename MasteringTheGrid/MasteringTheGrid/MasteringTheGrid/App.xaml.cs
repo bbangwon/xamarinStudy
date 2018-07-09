@@ -11,7 +11,7 @@ namespace MasteringTheGrid
 		{
 			InitializeComponent();
 
-			MainPage = new GridCodeDemoPage();
+			MainPage = new GridBarChartPage();
 		}
 
 		protected override void OnStart ()
