@@ -11,7 +11,7 @@ namespace MasteringTheGrid
 		{
 			InitializeComponent();
 
-			MainPage = new SpacingButtonsPage();
+			MainPage = new GridCellBordersPage();
 		}
 
 		protected override void OnStart ()
