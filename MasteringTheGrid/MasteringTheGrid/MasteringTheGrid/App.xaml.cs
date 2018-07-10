@@ -11,7 +11,7 @@ namespace MasteringTheGrid
 		{
 			InitializeComponent();
 
-			MainPage = new GridCellBordersPage();
+			MainPage = new KeypadGridPage();
 		}
 
 		protected override void OnStart ()
