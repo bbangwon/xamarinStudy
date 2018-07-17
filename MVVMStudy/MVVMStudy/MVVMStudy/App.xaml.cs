@@ -11,7 +11,7 @@ namespace MVVMStudy
 		{
 			InitializeComponent();
 
-			MainPage = new MvvmClockPage();
+			MainPage = new SimpleMultiplierPage();
 		}
 
 		protected override void OnStart ()
