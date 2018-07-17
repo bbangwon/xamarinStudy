@@ -11,7 +11,7 @@ namespace MVVMStudy
 		{
 			InitializeComponent();
 
-			MainPage = new SimpleMultiplierPage();
+			MainPage = new HslSlidersPage();
 		}
 
 		protected override void OnStart ()
