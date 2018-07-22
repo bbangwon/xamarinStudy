@@ -7,11 +7,14 @@ namespace MVVMStudy
 {
 	public partial class App : Application
 	{
+        AdderViewModel adderViewModel;
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new PowersOfThreePage();            
+            adderViewModel = new AdderViewModel();
+            adderViewModel.RestoreState(Current.Properties);
+            MainPage = new AddingMachinePage(adderViewModel);            
 		}
 
 		protected override void OnStart ()
@@ -21,7 +24,8 @@ namespace MVVMStudy
 
 		protected override void OnSleep ()
 		{
-			// Handle when your app sleeps
+            // Handle when your app sleeps
+            adderViewModel.SaveState(Current.Properties);
 		}
 
 		protected override void OnResume ()
