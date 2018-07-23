@@ -11,7 +11,7 @@ namespace CollectionViews
 		{
 			InitializeComponent();
 
-			MainPage = new PickerDemoPage();
+			MainPage = new PickerBindingPage();
 		}
 
 		protected override void OnStart ()
