@@ -11,7 +11,7 @@ namespace CollectionViews
 		{
 			InitializeComponent();
 
-			MainPage = new ListViewListPage();
+			MainPage = new ListViewArrayPage();
 		}
 
 		protected override void OnStart ()
