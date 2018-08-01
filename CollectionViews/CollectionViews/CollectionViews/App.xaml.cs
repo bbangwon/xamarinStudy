@@ -11,7 +11,7 @@ namespace CollectionViews
 		{
 			InitializeComponent();
 
-			MainPage = new ListViewLoggerPage();
+			MainPage = new TextCellListXamlPage();
 		}
 
 		protected override void OnStart ()

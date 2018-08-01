@@ -20,7 +20,9 @@ namespace CollectionViews
                 Color.Red, Color.Silver, Color.Teal, Color.White, Color.Yellow
             };
 
-            listView.ItemsSource = lColors.Select(_ => _.ToString());
+            listView.ItemsSource = lColors.Select(_=>_.ToString());
         }
-	}
+
+
+    }
 }
