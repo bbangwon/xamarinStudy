@@ -80,6 +80,14 @@ namespace Xamarin.Forms.Toolkit
         public static readonly Color Black = Color.FromRgb(0, 0, 0);
         public static readonly Color BlanchedImond = Color.FromRgb(255, 235, 205);
         public static readonly Color Blue = Color.FromRgb(0, 0, 255);
+        public static readonly Color BlueViolet = Color.FromRgb(138, 43, 226);
+        public static readonly Color Brown = Color.FromRgb(165, 42, 42);
+        public static readonly Color Burlywood = Color.FromRgb(222, 184, 135);
+        public static readonly Color CadetBlue = Color.FromRgb(95, 158, 160);
+        public static readonly Color Charteuse = Color.FromRgb(127, 255, 0);
+        public static readonly Color Chocolate = Color.FromRgb(210, 105, 30);
+        public static readonly Color Coral = Color.FromRgb(255, 127, 80);
+        public static readonly Color CornFlowerBlue = Color.FromRgb(100, 149, 237);
 
 
 

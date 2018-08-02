@@ -11,7 +11,7 @@ namespace CollectionViews
 		{
 			InitializeComponent();
 
-			MainPage = new TextCellListXamlPage();
+			MainPage = new CustomNamedColorListPage();
 		}
 
 		protected override void OnStart ()
