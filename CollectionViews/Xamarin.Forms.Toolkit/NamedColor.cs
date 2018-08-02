@@ -88,8 +88,20 @@ namespace Xamarin.Forms.Toolkit
         public static readonly Color Chocolate = Color.FromRgb(210, 105, 30);
         public static readonly Color Coral = Color.FromRgb(255, 127, 80);
         public static readonly Color CornFlowerBlue = Color.FromRgb(100, 149, 237);
-
-
+        public static readonly Color Cornsilk = Color.FromRgb(255, 248, 220);
+        public static readonly Color Crimson = Color.FromRgb(220, 20, 60);
+        public static readonly Color Cyan = Color.FromRgb(0, 255, 255);
+        public static readonly Color DarkBlue = Color.FromRgb(0, 0, 139);
+        public static readonly Color DarkCyan = Color.FromRgb(0, 139, 139);
+        public static readonly Color DarkGoldenRod = Color.FromRgb(184, 134, 11);
+        public static readonly Color DarkGray = Color.FromRgb(169, 169, 169);
+        public static readonly Color DarkGreen = Color.FromRgb(0, 100, 0);
+        public static readonly Color DarkKhaki = Color.FromRgb(189, 183, 107);
+        public static readonly Color DarkMagenta = Color.FromRgb(139, 0, 139);
+        public static readonly Color DarkOliveGreen = Color.FromRgb(85, 107, 47);
+        public static readonly Color DarkOrange = Color.FromRgb(255, 140, 0);
+        public static readonly Color Darkorchid = Color.FromRgb(153, 50, 204);
+        public static readonly Color DarkRed = Color.FromRgb(139, 0, 0);
 
     }
 }

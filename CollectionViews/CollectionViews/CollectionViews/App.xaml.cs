@@ -11,7 +11,7 @@ namespace CollectionViews
 		{
 			InitializeComponent();
 
-			MainPage = new CustomNamedColorListPage();
+			MainPage = new ColorGroupListPage();
 		}
 
 		protected override void OnStart ()
