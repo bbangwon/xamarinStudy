@@ -11,8 +11,27 @@
     </ContentPage.Padding>
     <ListView ItemsSource="{x:Static toolkit:NamedColorGroup.All}"
               IsGroupingEnabled="True"
-              GroupDisplayBinding="{Binding Title}"
               GroupShortNameBinding="{Binding ShortName}">
+        <ListView.GroupHeaderTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Label Text="{Binding Title}"
+                           BackgroundColor="{Binding ColorShade}"
+                           TextColor="Black"
+                           FontAttributes="Bold, Italic"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center">
+                        <Label.FontSize>
+                            <OnPlatform x:TypeArguments="x:Double"
+                                        iOS="30"
+                                        Android="30"
+                                        WinPhone="45"/>
+                        </Label.FontSize>
+                    </Label>
+                </ViewCell>
+
+            </DataTemplate>
+        </ListView.GroupHeaderTemplate>
         <ListView.RowHeight>
             <OnPlatform x:TypeArguments="x:Int32"
                         iOS="80"
