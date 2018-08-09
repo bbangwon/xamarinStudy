@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 using System.Xml.Serialization;
+using Xamarin.Forms;
 
 namespace SchoolOfFineArt
 {
@@ -13,7 +14,10 @@ namespace SchoolOfFineArt
 
         public Student()
         {
-
+            ResetGpaCommand = new Command(() => GradePointAverage = 2.5);
+            MoveToTopCommand = new Command(() => StudentBody.MoveStudentToTop(this));
+            MoveToBottomCommand = new Command(() => StudentBody.MoveStudentToBottom(this));
+            RemoveCommand = new Command(() => StudentBody.RemoveStudent(this));
         }
 
         public string FullName

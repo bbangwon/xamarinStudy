@@ -11,7 +11,7 @@ namespace CollectionViews
 		{
 			InitializeComponent();
 
-			MainPage = new SelectedStudentDetailPage();
+			MainPage = new CellContextMenuPage();
 		}
 
 		protected override void OnStart ()
