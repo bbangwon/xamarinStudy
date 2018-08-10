@@ -11,7 +11,7 @@ namespace CollectionViews
 		{
 			InitializeComponent();
 
-			MainPage = new RssFeedPage();
+			MainPage = new EntryFormPage();
 		}
 
 		protected override void OnStart ()
