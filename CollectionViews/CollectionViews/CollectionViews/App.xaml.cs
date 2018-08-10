@@ -11,7 +11,7 @@ namespace CollectionViews
 		{
 			InitializeComponent();
 
-			MainPage = new ColorCodedStudentsPage();
+			MainPage = new RssFeedPage();
 		}
 
 		protected override void OnStart ()
