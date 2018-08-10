@@ -66,6 +66,7 @@
     <Compile Include="NamedColorGroup.cs" />
     <Compile Include="ObjectToIndexConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThresholdToObjectConverter.cs" />
     <Compile Include="ViewModelBase.cs" />
   </ItemGroup>
   <ItemGroup>
