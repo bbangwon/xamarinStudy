@@ -11,7 +11,7 @@ namespace CollectionViews
 		{
 			InitializeComponent();
 
-			MainPage = new ConditionalSectionPage();
+			MainPage = new MenuCommandsPage();
 		}
 
 		protected override void OnStart ()

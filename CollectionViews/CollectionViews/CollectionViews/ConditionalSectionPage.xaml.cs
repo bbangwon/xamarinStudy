@@ -12,7 +12,7 @@ namespace CollectionViews
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ConditionalSectionPage : ContentPage
 	{
-		public ConditionalSectionPage ()
+		public ConditionalSectionPage()
 		{
 			InitializeComponent ();
 
