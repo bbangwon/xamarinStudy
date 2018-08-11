@@ -11,7 +11,7 @@ namespace CollectionViews
 		{
 			InitializeComponent();
 
-			MainPage = new EntryFormPage();
+			MainPage = new ConditionalCellsPage();
 		}
 
 		protected override void OnStart ()

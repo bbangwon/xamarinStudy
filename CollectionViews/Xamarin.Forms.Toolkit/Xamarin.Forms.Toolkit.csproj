@@ -65,6 +65,9 @@
     <Compile Include="NamedColor.cs" />
     <Compile Include="NamedColorGroup.cs" />
     <Compile Include="ObjectToIndexConverter.cs" />
+    <Compile Include="PickerCell.xaml.cs">
+      <DependentUpon>PickerCell.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThresholdToObjectConverter.cs" />
     <Compile Include="ViewModelBase.cs" />
@@ -76,6 +79,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PickerCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
