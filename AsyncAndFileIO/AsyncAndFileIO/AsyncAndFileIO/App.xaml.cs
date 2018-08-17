@@ -11,7 +11,7 @@ namespace AsyncAndFileIO
         {
             InitializeComponent();
 
-            MainPage = new AlertCallbacksPage();
+            MainPage = new AlertAwaitPage();
         }
 
         protected override void OnStart()
