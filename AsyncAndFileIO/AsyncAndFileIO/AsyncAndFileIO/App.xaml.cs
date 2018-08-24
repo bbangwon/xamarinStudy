@@ -11,7 +11,7 @@ namespace AsyncAndFileIO
         {
             InitializeComponent();
 
-            MainPage = new AlertAwaitPage();
+            MainPage = new SaveProgramSettingsPage();
         }
 
         protected override void OnStart()
