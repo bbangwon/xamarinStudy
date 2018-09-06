@@ -11,7 +11,7 @@ namespace AsyncAndFileIO
         {
             InitializeComponent();
 
-            MainPage = new TaskDelayClockPage();
+            MainPage = new TextFileTryoutPage();
         }
 
         protected override void OnStart()
