@@ -6,7 +6,7 @@ using Xamarin.Forms;
 
 namespace Xamarin.FormsBook.Platform
 {
-    class FileHelper
+    public class FileHelper
     {
         IFileHelper fileHelper = DependencyService.Get<IFileHelper>();
 
