@@ -28,14 +28,14 @@ namespace Xamarin.FormsBook.Platform.WinRT
         public async Task WriteTextAsync(string filename, string text)
         {
             StorageFolder localFolder = ApplicationData.Current.LocalFolder;
-            IStorageFile storageFile = await localFolder.CreateFileAsync(filename, CreationCollisionOption.ReplaceExisting);
-            await FileIO.WriteTextAsync(storageFile, text);
+            IStorageFile storageFile = await localFolder.CreateFileAsync(filename, CreationCollisionOption.ReplaceExisting).AsTask().ConfigureAwait(false);
+            await FileIO.WriteTextAsync(storageFile, text).AsTask().ConfigureAwait(false);
         }
         public async Task<string> ReadTextAsync(string filename)
         {
             StorageFolder localFolder = ApplicationData.Current.LocalFolder;
-            IStorageFile storageFile = await localFolder.GetFileAsync(filename);
-            return await FileIO.ReadTextAsync(storageFile);
+            IStorageFile storageFile = await localFolder.GetFileAsync(filename).AsTask().ConfigureAwait(false);
+            return await FileIO.ReadTextAsync(storageFile).AsTask().ConfigureAwait(false);
         }
         public async Task<IEnumerable<string>> GetFileAsync()
         {
