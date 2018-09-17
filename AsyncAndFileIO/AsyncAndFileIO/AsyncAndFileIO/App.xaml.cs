@@ -11,7 +11,7 @@ namespace AsyncAndFileIO
         {
             InitializeComponent();
 
-            MainPage = new TextFileTryoutPage();
+            MainPage = new MandelbrotSetPage();
         }
 
         protected override void OnStart()
