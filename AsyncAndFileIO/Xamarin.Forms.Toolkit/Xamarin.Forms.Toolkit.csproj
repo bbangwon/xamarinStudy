@@ -54,7 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AltLabel.cs" />
+    <Compile Include="BaseTwoLogConverter.cs" />
     <Compile Include="BmpMaker.cs" />
+    <Compile Include="BooleanNegationConverter.cs" />
     <Compile Include="BoolToStringConverter.cs" />
     <Compile Include="CheckBox.xaml.cs">
       <DependentUpon>CheckBox.xaml</DependentUpon>
