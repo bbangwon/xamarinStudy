@@ -54,13 +54,13 @@
 
             <BoxView x:Name="realCrossHair"/>
             <BoxView x:Name="imageCrossHair"/>
-            <BoxView x:Name="tobBox"/>
+            <BoxView x:Name="topBox"/>
             <BoxView x:Name="bottomBox"/>
             <BoxView x:Name="leftBox"/>
             <BoxView x:Name="rightBox"/>
         </AbsoluteLayout>
 
-        <StackLayout x:Name="controlPanel"
+        <StackLayout x:Name="controlPanelStack"
                      Grid.Row="1" Grid.Column="0"
                      Padding="10">
             <ProgressBar Progress="{Binding Progress}"

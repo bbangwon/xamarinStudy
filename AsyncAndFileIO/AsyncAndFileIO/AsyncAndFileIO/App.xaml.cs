@@ -11,7 +11,7 @@ namespace AsyncAndFileIO
         {
             InitializeComponent();
 
-            MainPage = new MandelbrotCancellationPage();
+            MainPage = new MandelbrotXFPage();
         }
 
         protected override void OnStart()

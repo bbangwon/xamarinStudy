@@ -14,7 +14,7 @@ namespace AsyncAndFileIO
         readonly double baseHeight;
 
         Complex currentCenter, targetCenter;
-        int pixelWidth, pixelHeigth;
+        int pixelWidth, pixelHeight;
         double currentMagnification, targetMagnification;
         int iterations;
         double realOffset, imaginaryOffset;
@@ -89,8 +89,8 @@ namespace AsyncAndFileIO
 
         public int PixelHeight
         {
-            set { SetProperty(ref pixelHeigth, value); }
-            get { return pixelHeigth; }
+            set { SetProperty(ref pixelHeight, value); }
+            get { return pixelHeight; }
         }
 
         public Complex CurrentCenter
