@@ -11,7 +11,7 @@ namespace AsyncAndFileIO
         {
             InitializeComponent();
 
-            MainPage = new MandelbrotXFPage();
+            MainPage = new ApmToTapPage();
         }
 
         protected override void OnStart()
