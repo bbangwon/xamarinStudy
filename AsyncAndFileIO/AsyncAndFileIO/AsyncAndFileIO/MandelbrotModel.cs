@@ -30,7 +30,7 @@ namespace AsyncAndFileIO
 
                     for (int col = 0; col < pixelWidth; col++)
                     {
-                        double x = Center.Real - width / 2 + row * width / pixelWidth;
+                        double x = Center.Real - width / 2 + col * width / pixelWidth;
                         Complex c = new Complex(x, y);
 
                         if((c - new Complex(-1, 0)).MagnitudeSquared < 1.0 / 16)

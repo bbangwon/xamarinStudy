@@ -147,8 +147,8 @@ namespace AsyncAndFileIO
 
         void CalculateTargetCenter()
         {
-            double width = baseWidth / currentMagnification;
-            double height = baseHeight / currentMagnification;
+            double width = baseWidth / CurrentMagnification;
+            double height = baseHeight / CurrentMagnification;
 
             TargetCenter = new Complex(CurrentCenter.Real + (RealOffset - 0.5) * width,
                 CurrentCenter.Imaginary + (ImaginaryOffset - 0.5) * height);

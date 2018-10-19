@@ -73,7 +73,7 @@
                         IsEnabled="{Binding IsBusy, Converter={StaticResource negate}}"/>
                 <Label Text="{Binding TargetCenter, StringFormat='{0}'}"
                        FontSize="Small"
-                       HorizontalOptions="Center"/>
+                       HorizontalTextAlignment="Center"/>
             </StackLayout>
 
             <Grid VerticalOptions="CenterAndExpand">
