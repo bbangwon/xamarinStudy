@@ -11,7 +11,7 @@ namespace Transforms
         {
             InitializeComponent();
 
-            MainPage = new TranslationDemoPage();
+            MainPage = new BlockTextPage();
         }
 
         protected override void OnStart()
