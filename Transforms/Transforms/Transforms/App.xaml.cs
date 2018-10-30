@@ -11,7 +11,7 @@ namespace Transforms
         {
             InitializeComponent();
 
-            MainPage = new BlockTextPage();
+            MainPage = new ButtonGlidePage();
         }
 
         protected override void OnStart()
