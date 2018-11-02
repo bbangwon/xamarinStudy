@@ -11,7 +11,7 @@ namespace Transforms
         {
             InitializeComponent();
 
-            MainPage = new ButtonGlidePage();
+            MainPage = new AnchoredScaleDemoPage();
         }
 
         protected override void OnStart()
