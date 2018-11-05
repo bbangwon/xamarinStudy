@@ -11,7 +11,7 @@ namespace Transforms
         {
             InitializeComponent();
 
-            MainPage = new AnchoredScaleDemoPage();
+            MainPage = new PlaneRotationDemoPage();
         }
 
         protected override void OnStart()
