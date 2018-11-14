@@ -11,7 +11,7 @@ namespace Transforms
         {
             InitializeComponent();
 
-            MainPage = new PlaneRotationDemoPage();
+            MainPage = new BoxViewClockPage();
         }
 
         protected override void OnStart()
