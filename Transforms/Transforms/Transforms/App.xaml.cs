@@ -11,7 +11,7 @@ namespace Transforms
         {
             InitializeComponent();
 
-            MainPage = new BoxViewClockPage();
+            MainPage = new RotatedTextPage();
         }
 
         protected override void OnStart()
