@@ -11,7 +11,7 @@ namespace Transforms
         {
             InitializeComponent();
 
-            MainPage = new RotatedTextPage();
+            MainPage = new CircularTextPage();
         }
 
         protected override void OnStart()
