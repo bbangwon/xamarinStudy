@@ -11,7 +11,7 @@ namespace Transforms
         {
             InitializeComponent();
 
-            MainPage = new CircularTextPage();
+            MainPage = new VerticalSlidersPage();
         }
 
         protected override void OnStart()
