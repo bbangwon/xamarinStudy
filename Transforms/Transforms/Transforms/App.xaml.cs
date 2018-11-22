@@ -11,7 +11,7 @@ namespace Transforms
         {
             InitializeComponent();
 
-            MainPage = new VerticalSlidersPage();
+            MainPage = new ThreeDeeRotationDemoPage();
         }
 
         protected override void OnStart()
