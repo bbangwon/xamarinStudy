@@ -17,9 +17,11 @@ namespace Animation
 			InitializeComponent ();
 		}
 
-        private void OnButtonClicked(object sender, EventArgs e)
+        async private void OnButtonClicked(object sender, EventArgs e)
         {
-            button.RotateTo(360);
+            await button.RotateTo(90, 250);
+            await button.RotateTo(-90, 500);
+            await button.RotateTo(0, 250);
         }
     }
 }
