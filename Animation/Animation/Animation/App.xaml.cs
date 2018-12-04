@@ -11,7 +11,7 @@ namespace Animation
         {
             InitializeComponent();
 
-            MainPage = new AnimationTryoutPage();
+            MainPage = new CircleButtonPage();
         }
 
         protected override void OnStart()
