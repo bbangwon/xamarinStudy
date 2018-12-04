@@ -19,9 +19,13 @@ namespace Animation
 
         async private void OnButtonClicked(object sender, EventArgs e)
         {
-            await button.RotateTo(90, 250);
-            await button.RotateTo(-90, 500);
-            await button.RotateTo(0, 250);
+            button.Rotation = 0;
+
+            await Task.WhenAny<bool>(
+                button.RotateTo(360, 2000),
+                button.ScaleTo(5, 1000)
+                );
+            await button.ScaleTo(1, 1000);
         }
     }
 }
