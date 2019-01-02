@@ -11,7 +11,7 @@ namespace Animation
         {
             InitializeComponent();
 
-            MainPage = new JiggleButtonDemoPage();
+            MainPage = new SwingingEntrancePage();
         }
 
         protected override void OnStart()
