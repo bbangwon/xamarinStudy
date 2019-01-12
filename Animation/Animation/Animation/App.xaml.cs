@@ -11,7 +11,7 @@ namespace Animation
         {
             InitializeComponent();
 
-            MainPage = new SwingingEntrancePage();
+            MainPage = new SpinningImagePage();
         }
 
         protected override void OnStart()
