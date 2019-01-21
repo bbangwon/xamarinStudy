@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Animation.XamagonXuzzlePage">
+    <ContentPage.Padding>
+        <OnPlatform x:DataType="Thickness" iOS="0,20,0,0"/>
+    </ContentPage.Padding>
+
+    <ContentView SizeChanged="OnContentViewSizeChanged">
+        <StackLayout x:Name="stackLayout">
+            <Button Text="Randomize" Clicked="OnRandomizeButtonClicked"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"/>
+
+            <AbsoluteLayout x:Name="absoluteLayout" BackgroundColor="Black"/>
+
+            <Button Text="Randomize" Opacity="0"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentView>
+</ContentPage>

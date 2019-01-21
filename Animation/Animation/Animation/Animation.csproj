@@ -10,6 +10,42 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Bitmap00.png" />
+    <None Remove="Images\Bitmap01.png" />
+    <None Remove="Images\Bitmap02.png" />
+    <None Remove="Images\Bitmap03.png" />
+    <None Remove="Images\Bitmap10.png" />
+    <None Remove="Images\Bitmap11.png" />
+    <None Remove="Images\Bitmap12.png" />
+    <None Remove="Images\Bitmap13.png" />
+    <None Remove="Images\Bitmap20.png" />
+    <None Remove="Images\Bitmap21.png" />
+    <None Remove="Images\Bitmap22.png" />
+    <None Remove="Images\Bitmap23.png" />
+    <None Remove="Images\Bitmap30.png" />
+    <None Remove="Images\Bitmap31.png" />
+    <None Remove="Images\Bitmap32.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Bitmap00.png" />
+    <EmbeddedResource Include="Images\Bitmap01.png" />
+    <EmbeddedResource Include="Images\Bitmap02.png" />
+    <EmbeddedResource Include="Images\Bitmap03.png" />
+    <EmbeddedResource Include="Images\Bitmap10.png" />
+    <EmbeddedResource Include="Images\Bitmap11.png" />
+    <EmbeddedResource Include="Images\Bitmap12.png" />
+    <EmbeddedResource Include="Images\Bitmap13.png" />
+    <EmbeddedResource Include="Images\Bitmap20.png" />
+    <EmbeddedResource Include="Images\Bitmap21.png" />
+    <EmbeddedResource Include="Images\Bitmap22.png" />
+    <EmbeddedResource Include="Images\Bitmap23.png" />
+    <EmbeddedResource Include="Images\Bitmap30.png" />
+    <EmbeddedResource Include="Images\Bitmap31.png" />
+    <EmbeddedResource Include="Images\Bitmap32.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
 
@@ -22,6 +58,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="BounceButtonPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="BouncingBoxPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="CircleButtonPage.xaml">
@@ -61,6 +100,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="UneasyScalePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamagonXuzzlePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

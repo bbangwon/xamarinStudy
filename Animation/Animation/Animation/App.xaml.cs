@@ -11,7 +11,7 @@ namespace Animation
         {
             InitializeComponent();
 
-            MainPage = new SpinningImagePage();
+            MainPage = new XamagonXuzzlePage();
         }
 
         protected override void OnStart()
