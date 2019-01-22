@@ -11,7 +11,7 @@ namespace Animation
         {
             InitializeComponent();
 
-            MainPage = new XamagonXuzzlePage();
+            MainPage = new TryAwaitableAnimationPage();
         }
 
         protected override void OnStart()
