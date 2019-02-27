@@ -11,7 +11,7 @@ namespace Animation
         {
             InitializeComponent();
 
-            MainPage = new TryAwaitableAnimationPage();
+            MainPage = new ConcurrentAnimationsPage();
         }
 
         protected override void OnStart()
